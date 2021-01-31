@@ -10,6 +10,7 @@ enviornment.staging = {
     'envName': 'staging',
     'httpsPort': 4001,
 };
+ 
 
 enviornment.production = {
     'httpPort': 6000,

@@ -25,7 +25,6 @@ const httpsServer = https.createServer(httpsConfig, ( req, res) => collectiveSer
 httpsServer.listen(config.httpsPort, () => console.log(`Server is now listening on port ${config.httpsPort} in ${config.envName} mode.`));
 
 
-
 const collectiveServer = (( req, res) => {
     // EXTRACT AND PARSE INFORMATION FROM THE USER'S REQUEST
         // Get the URL from the request the user sent
